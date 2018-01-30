@@ -1,11 +1,13 @@
 import React from 'react';
+import './Style/DashboardCardFooter.css';
+
 
 class DashboardCardFooter extends React.Component {
   render() {
     return (
-      <div>
-<h1>      this is footer</h1>
-</div>
+      <div className="DashboardCardFooterDiv">
+      ads
+      </div>
     );
   }
 }
