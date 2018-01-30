@@ -1,0 +1,23 @@
+#parent {
+  display: flex;
+}
+
+.CircleImage {
+  vertical-align:middle;
+  width: 100px;
+  height: 100px;
+  flex: 1;
+}
+.TopContainer {
+  width: 100px;
+  height: 100px;
+  flex: 2;
+
+}
+.CardHeader {
+  text-align: right;
+  vertical-align:top;
+  width: 100px;
+  height: 100px;
+  flex: 3;
+}

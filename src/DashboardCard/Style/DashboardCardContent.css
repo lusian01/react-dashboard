@@ -1,0 +1,16 @@
+.DashboardCardContentDiv {
+  margin-left: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+.CardTitle {
+  font-size: 24px;
+  display: block;
+}
+
+.CardSubTitle {
+  font-size: 14px;
+  display: block;
+
+}
