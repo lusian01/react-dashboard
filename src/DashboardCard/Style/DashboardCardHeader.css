@@ -3,26 +3,23 @@
   width: 300px;
 
 }
-
 .CircleImage {
   vertical-align:middle;
   width: 100px;
   height: 100px;
   flex: 1;
 }
-.TopContainer {
+
+.topContainer {
   width: 100px;
   height: 100px;
   flex: 2;
 
 }
-.CardHeader {
+.cardHeader {
   text-align: right;
   vertical-align:top;
   width: 100px;
   height: 90px;
   flex: 3;
-}
-.img-circle {
-    border-radius: 50%;
 }

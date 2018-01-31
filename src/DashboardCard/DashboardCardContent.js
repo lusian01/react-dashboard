@@ -5,10 +5,9 @@ import './Style/DashboardCardContent.css';
 class DashboardCardContent extends React.Component {
   render() {
     return (
-        <div className="DashboardCardContentDiv">
-          <span className="CardTitle">Card title</span>
-          <span className="CardSubTitle">Card Subtitle</span>
-        </div>
+      <div className="DashboardCardContentDiv">
+      ads
+      </div>
     );
   }
 }
