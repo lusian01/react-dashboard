@@ -6,7 +6,7 @@ class DashboardCardContent extends React.Component {
   render() {
     return (
       <div className="DashboardCardContentDiv">
-      ads
+        {this.props.children}
       </div>
     );
   }
