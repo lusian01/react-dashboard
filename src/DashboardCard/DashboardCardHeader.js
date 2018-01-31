@@ -11,6 +11,16 @@ import CircleImagePaper from './CircleImagePaper';
 
 
 class DashboardCardHeader extends React.Component {
+  constructor(props){
+    super(props);
+}
+
+
+    handleClick = () => {
+      this.props.handleToggleClick;
+    }
+
+
   render() {
     return (
       <div id="parent">
@@ -19,8 +29,8 @@ class DashboardCardHeader extends React.Component {
       </div>
       <div className="topContainer"></div>
        <div className="cardHeader">
-          <IconButton tooltip="Font Icon">
-            <ActionHome />
+          <IconButton tooltip="Font Icon" onClick={this.handleClick} >
+            <ActionHome/>
             <FontIcon className="muidocs-icon-action-home" color={red500} />
           </IconButton>
        </div>

@@ -18,7 +18,7 @@ class DashboardCard extends React.Component {
     return (
       <React.Fragment>
         <Paper style={style} zDepth={3}>
-          <DashboardCardHeader imageSrc={this.props.imageSrc} />
+          <DashboardCardHeader imageSrc={this.props.imageSrc}/>
           <DashboardCardTitle cardTitle={this.props.cardTitle} cardSubTitle={this.props.cardSubTitle} />
           <DashboardCardContent>
           {this.props.children}
