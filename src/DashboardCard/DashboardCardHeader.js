@@ -3,8 +3,7 @@ import FontIcon from 'material-ui/FontIcon';
 import IconButton from 'material-ui/IconButton';
 import './Style/DashboardCardHeader.css';
 import ActionHome from 'material-ui/svg-icons/action/home';
-import {red500, yellow500, blue500} from 'material-ui/styles/colors';
-import Paper from 'material-ui/Paper';
+import {red500} from 'material-ui/styles/colors';
 import CircleImagePaper from './CircleImagePaper';
 
 
@@ -13,11 +12,12 @@ import CircleImagePaper from './CircleImagePaper';
 class DashboardCardHeader extends React.Component {
   constructor(props){
     super(props);
+
 }
 
 
     handleClick = () => {
-      this.props.handleToggleClick;
+       this.props.handleToggleClick;
     }
 
 

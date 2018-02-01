@@ -1,11 +1,6 @@
 import React from 'react';
-import FontIcon from 'material-ui/FontIcon';
-import IconButton from 'material-ui/IconButton';
 import './Style/CircleImagePaper.css';
-import ActionHome from 'material-ui/svg-icons/action/home';
-import {red500, yellow500, blue500} from 'material-ui/styles/colors';
 import Paper from 'material-ui/Paper';
-import PropTypes from 'prop-types';
 
 const circleStyle = {
   height: 80,

@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import DashboardPage from './DashboardPage';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';

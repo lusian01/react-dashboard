@@ -8,15 +8,13 @@ class DashboardPage extends React.Component {
 
    }
 
-    handleToggleClick= () =>{
 
-     }
 
 
 
   render() {
     return (
-      <div className="DashboardPage">
+      <div>
         <DashboardCard imageSrc="http://img.tenasia.hankyung.com/webwp_kr/wp-content/uploads/2017/09/2017092116364588197-540x810.jpg" cardTitle="슬기" cardSubTitle="레드벨벳">
         dfsfs
         </DashboardCard>
