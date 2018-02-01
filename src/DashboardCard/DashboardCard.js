@@ -23,12 +23,12 @@ class DashboardCard extends React.Component {
       value: true,
     };
 
-    this.handleToggleClick = this.handleToggleClick(this);
+    this.deleteTodo = this.deleteTodo(this);
   }
 
-    handleToggleClick() {
+    deleteTodo() {
       this.setState({
-        value: false
+        value: false,
         });
         console.log(this.state.value);
      }
@@ -38,7 +38,7 @@ if(this.state.value === true){
       return (
         <React.Fragment>
         <Paper style={style} zDepth={3}>
-          <DashboardCardHeader imageSrc={this.props.imageSrc}/>
+          <DashboardCardHeader imageSrc={this.props.imageSrc} onDelete={this.deleteTodo} />
           <DashboardCardTitle cardTitle={this.props.cardTitle} cardSubTitle={this.props.cardSubTitle} />
           <DashboardCardContent>
           {this.props.children}

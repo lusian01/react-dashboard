@@ -14,12 +14,9 @@ class DashboardCardHeader extends React.Component {
     super(props);
 
 }
-
-
-    handleClick = () => {
-       this.props.handleToggleClick;
-    }
-
+_onDelete() {
+  this.props.deleteTodo;
+}
 
   render() {
     return (
@@ -29,7 +26,7 @@ class DashboardCardHeader extends React.Component {
       </div>
       <div className="topContainer"></div>
        <div className="cardHeader">
-          <IconButton tooltip="Font Icon" onClick={this.handleClick} >
+          <IconButton tooltip="Font Icon" onClick={this._onDelete} >
             <ActionHome/>
             <FontIcon className="muidocs-icon-action-home" color={red500} />
           </IconButton>
